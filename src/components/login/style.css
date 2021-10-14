@@ -1,0 +1,120 @@
+.LoginContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+.LeftWrapper {
+    flex: 0.5;
+}
+.WelcomeContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    font-size: 1.6rem;
+}
+.Intro {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.IntroSubHeading {
+    color: gray;
+}
+.RightWrapper {
+    flex: 1;
+}
+.Logo {
+    display: flex;
+    color: red;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    flex: 1;
+}
+
+.LoginWrapperContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem;
+}
+.InputWrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.InputLabel {
+    flex: 1;
+    padding: 1rem 1rem;
+    font-weight: 600;
+    color: #333;
+}
+.Input {
+    padding: 1rem 1rem;
+    border-radius: 4px;
+    flex: 1;
+    border: 1px solid RGB(212, 213, 219);
+    box-shadow: inset 0 2px 2px 0 rgb(0 0 0 / 5%);
+    color: RGB(38, 41, 77);
+    font-size: inherit;
+    outline: none;
+}
+.Error {
+    color: red;
+    padding: 14px 0;
+}
+.RequestOtp {
+    margin-top: 1rem;
+    padding: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: rgb(10, 10, 243);
+    border: 1px solid RGB(212, 213, 219);
+    box-shadow: inset 0 2px 2px 0 rgb(0 0 0 / 5%);
+    font-size: inherit;
+    outline: none;
+    cursor: pointer;
+}
+
+.SwitchContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px dashed #333;
+}
+
+.Switch {
+    align-self: center;
+    flex: 1;
+    padding: 1rem;
+    font-weight: 700;
+}
+
+.SwitchBtn {
+    background-color: #fff;
+    color: rgb(10, 10, 243);
+    padding: 1rem 1rem;
+    display: flex;
+    border-radius: 1rem;
+    border: 2px solid rgb(10, 10, 243);
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 2px 2px 0 rgb(0 0 0 / 5%);
+    font-size: inherit;
+    outline: none;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 700px) {
+    .LoginContainer {
+        flex-direction: row;
+    }
+    .LeftWrapper {
+        flex: 1;
+    }
+}
